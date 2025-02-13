@@ -1,0 +1,4 @@
+REM The next three lines execute a command prompt in Windows
+MEDIA SNAPSHOT
+DELAY 500
+WINDOWS e
