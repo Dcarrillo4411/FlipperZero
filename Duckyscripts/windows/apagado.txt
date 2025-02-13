@@ -1,0 +1,9 @@
+REM The next three lines execute a command prompt in Windows
+WINDOWS r
+STRING cmd
+DELAY 500
+ENTER
+DELAY 500
+STRING shutdown /s
+DELAY 500
+ENTER
